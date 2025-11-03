@@ -18,8 +18,6 @@ This app follows a **three-tier architecture**:
 
 Each tier runs in its own **container**, and all containers are managed together using **Docker Compose**.
 
-📸 **Screenshot Tip:** Add a simple **architecture diagram** here showing three containers (Nginx → PHP-FPM → MySQL) connected with Docker networks.
-
 ---
 
 ## Project Structure
