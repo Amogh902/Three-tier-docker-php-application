@@ -166,7 +166,7 @@ mysqli_close($conn);
 ```dockerfile
 FROM mysql
 ENV MYSQL_ROOT_PASSWORD=root
-ENV MYSQL_DATABASE=FCT
+ENV MYSQL_DATABASE=studentapp
 COPY init.sql /docker-entrypoint-initdb.d/
 EXPOSE 3306
 ```
